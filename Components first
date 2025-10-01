@@ -1,0 +1,35 @@
+function App() {
+  return (
+  
+    <div><h1>First Component{sum()}</h1>
+    <Flower></Flower>
+    <Colors></Colors>
+    </div>
+     
+    
+  );
+}
+
+ function Flower(){
+  return(
+    <>
+  
+      <h1>rose</h1>
+     
+      </>
+  );
+ }
+  function Colors(){
+  return(
+    <>
+  
+      <h1>black</h1>
+     
+      </>
+  );
+ }
+
+ function sum(){
+  return 20+10;
+ }
+export default App;
